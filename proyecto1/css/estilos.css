@@ -1,4 +1,5 @@
 body {
+    background: #1e1f24;
     text-align: center;
     font-family: Arial;
     color: #333;
@@ -8,7 +9,7 @@ body {
 }
 
 #cabecera {
-    background: #33A;
+    background: url("../imagenes/logo.png") 10px 10px;
     color: white;
     font-weight: bold;
     margin: 0;
@@ -19,6 +20,11 @@ body {
 #cabecera #tagline {
     font-weight: normal;
     font-size: 0.8em;
+}
+
+#cabecera #logo {
+    width: 20px;
+    vertical-align: middle;
 }
 
 #container {
